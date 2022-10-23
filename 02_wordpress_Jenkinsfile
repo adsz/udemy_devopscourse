@@ -7,7 +7,6 @@ pipeline {
     choice(
       name: 'REGION',
       choices: [
-          ' ',
           'eu-central-1',
           ],
       description: 'AWS Account Region'
